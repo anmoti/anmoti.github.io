@@ -1,9 +1,9 @@
-#main{
+.main{
     size: 60px;
     color: black;
     text-align: center;
 }
-#footer{
+.footer{
     size: 40px;
     color: black;
     text-align: center;
