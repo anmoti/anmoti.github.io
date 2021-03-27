@@ -44,8 +44,7 @@ div.menu ul li.right {
 	}
 }
 #main {
-	overflow: hidden;
-	max-width: 1200px;		/*最大幅の制限*/
+	overflow: hidden;		/*最大幅の制限*/
 	margin: 15px;
 	margin-top: 30px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);	/*ボックスの影*/
