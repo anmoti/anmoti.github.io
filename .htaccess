@@ -1,0 +1,10 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options Indexes
+ErrorDocument 404 https://anmoti.ddo.jp/404.html
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www\.anmoti\.ddo\.jp)(:80)? [NC]
+RewriteRule ^(.*) https://anmoti.ddo.jp/$1 [R=301,L]
+DirectoryIndex index.html music.mp3      
+order deny,allow
